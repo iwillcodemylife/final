@@ -1,0 +1,25 @@
+
+body{
+    background: #ddd;
+}
+ 
+.top-nav-collapse {
+    background-color: rgb(84, 45, 45) !important;
+
+} 
+
+.navbar:not(.top-nav-collapse) {
+    background: black;
+}
+
+.navbar-brand{
+    margin-right: 500px;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: rgb(206, 197, 197) !important;
+    }
+} 
+
+
+
